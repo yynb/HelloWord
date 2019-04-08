@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+	    <!-- 
+	         property标签,配置数据库连接四大信息 
+	         name属性,要配置什么,标签体,配置的实际内容
+	    -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+        <!--自己的数据库-->
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/maven01</property>
+		<property name="user">root</property>
+		<property name="password">root</property>
+	</default-config>
+	
+</c3p0-config> 
